@@ -1,0 +1,6 @@
+https://projectlombok.org/setup/eclipse
+Download jar file from https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.42, then add in the project
+Via eclipse plugin installer: https://projectlombok.org/p2
+CMD: C:\Users\alokb\source\repos>java -jar lombok-1.18.42.jar
+Eclipse path: D:\Tools\eclipse 2025-12 (4.38.0)
+

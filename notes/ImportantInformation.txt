@@ -1,0 +1,2 @@
+https://instantwebtools.net/fake-rest-api
+https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-CreateBooking

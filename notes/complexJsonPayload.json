@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"first_name": "Alok",
+		"last_name": "Barman",
+		"email": "testing@outlook.com",
+		"gender": "Male",
+		"mobile": [
+			"1231231234",
+			"1234567890"
+		],
+		"skills": {
+			"name": "Testing",
+			"proficiency": "Medium"
+		}
+	},
+	{
+		"id": 2,
+		"first_name": "Cloe",
+		"last_name": "Stuart",
+		"email": "alok.barman@outlook.com",
+		"gender": "Female",
+		"skills": [
+			{
+				"name": "Testing",
+				"proficiency": "Medium"
+			},
+			{
+				"name": "Java",
+				"proficiency": "Medium",
+				"certifications": [
+					"OCJP 11",
+					"OCJP 12"
+				]
+			}
+		]
+	}
+]

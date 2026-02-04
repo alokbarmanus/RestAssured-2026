@@ -1,0 +1,13 @@
+serialization is a conversion of the state of a Java object to a byte stream and
+Deserialization is the reverse of it, i.e. conversion od a byte stream to corresponding Java object.
+A serialize object can be stored files, external resources, database etc and can also be transferred over network.
+
+To make a Java object serializable, either its class or any of its supre classes implements either the Serializable interface or its subinterface externalizable.
+A class the implements Serializable or externalizable are actually Java Beans.
+
+A Plain Old Java Object i.e. POJO has no such restriction.
+We generally use POJO class to create JSON payload and convert JSON response payload to Java objects.
+Converting a POJO object to a JSON object is Serialization and
+Converting a JSON object to a POJO object is called deserialization.
+These conversions can be done with help of Java libraries like Jacson, Gson etc.
+We do not need to implement the required interfaces for POJO classes.
