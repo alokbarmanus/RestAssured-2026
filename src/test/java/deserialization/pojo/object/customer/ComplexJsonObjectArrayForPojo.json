@@ -1,0 +1,18 @@
+[
+	{
+		"accountNo": 3198488169,
+		"balance": 1111.11,
+		"first_name": "Alok",
+		"last_name": "Barman",
+		"email": "test@abc.com",
+		"gender": "Male"
+	},
+	{
+		"accountNo": 889968900,
+		"balance": 2222.22,
+		"first_name": "Nrityam",
+		"last_name": "Barman",
+		"email": "test1@abc.com",
+		"gender": "Male"
+	}
+]

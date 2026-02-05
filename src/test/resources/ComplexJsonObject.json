@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "first_name": "Alok",
+  "last_name": "Barman",
+  "email": "testing@outlook.com",
+  "gender": "Male",
+  "mobile": [
+    "1231231234",
+    "1234567890"
+  ],
+  "skills": {
+    "name": "Testing",
+    "proficiency": "Medium"
+  }
+}
