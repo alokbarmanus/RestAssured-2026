@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "first_name": "Alok",
+  "last_name": "Barman",
+  "profession": "Software Engineer",
+  "address": {
+    "houseNo": 3,
+    "streetName": "Marshall Street",
+    "city": "Irvington",
+    "state": "NJ",
+    "country": "USA"
+  }
+}

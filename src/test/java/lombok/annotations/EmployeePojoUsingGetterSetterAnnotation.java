@@ -1,4 +1,7 @@
-package lombok;
+package lombok.annotations;
+
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter

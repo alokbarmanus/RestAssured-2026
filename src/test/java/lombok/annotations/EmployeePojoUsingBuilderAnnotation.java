@@ -1,4 +1,7 @@
-package lombok;
+package lombok.annotations;
+
+import lombok.Builder;
+import lombok.Getter;
 
 @Builder(toBuilder=true)
 @Getter

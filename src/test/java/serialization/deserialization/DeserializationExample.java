@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import lombok.EmployeePojoUsingGetterSetterAnnotation;
+import lombok.annotations.EmployeePojoUsingGetterSetterAnnotation;
 
 public class DeserializationExample {
 
