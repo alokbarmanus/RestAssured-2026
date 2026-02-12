@@ -1,5 +1,7 @@
 package tests.main;
 
+import java.io.File;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
@@ -16,5 +18,21 @@ public class GetBookingById {
 		Response response = restARequestSpecification.get();
 		ValidatableResponse validatableResponse = response.then().log().all();
 		validatableResponse.statusCode(200);
+		
+		RestAssured.given().baseUri("https://restful-booker.herokuapp.com/").when().get("booking/{id}").then().statusCode(200);
+	RestAssured.given()
+				.auth().basic("username", "password")
+				.get("https://restful-booker.herokuapp.com/booking/1")
+				.then()
+				.statusCode(200);
+	String updatedBody = "{\"name\":\"Alok Updated\"}";
+	RestAssured.given().body(updatedBody)
+	.put("/update")
+	.then().statusCode(200);
+	
+	RestAssured.given().multiPart("file", new File("path/to/file")).post("/upload");
+	
+	assert response.path("key").equals("expectedValue");
+	
 	}
 }

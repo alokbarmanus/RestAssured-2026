@@ -1,0 +1,11 @@
+{
+	"data": {
+		"id": 101,
+		"name": "Alok Barman",
+		"email": "alok.barman@example.com",
+		"details": {
+			"age": 30,
+			"address": "123 Marshall street"
+		}
+	}
+}
